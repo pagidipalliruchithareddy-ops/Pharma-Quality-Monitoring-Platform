@@ -29,3 +29,10 @@ Open http://localhost:5000. Stop with `docker compose down`.
 - Generate a batch quality summary
 
 Educational prototype only; not validated for GMP production or regulatory use.
+## Batch Management Feature
+
+The platform allows users to:
+1. Create pharmaceutical production batches.
+2. Store batch numbers and product names.
+3. Track batch status.
+4. Maintain batch records in the database.
