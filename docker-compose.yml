@@ -1,0 +1,12 @@
+services:
+  pharma-monitor:
+    build: .
+    container_name: pharma-quality-app
+    ports:
+      - "5000:5000"
+    volumes:
+      - pharma_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  pharma_data:
